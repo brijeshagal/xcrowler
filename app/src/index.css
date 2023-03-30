@@ -1,0 +1,144 @@
+body {
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Muli", sans-serif;
+}
+
+main {
+  display: flex;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+.contract {
+  /* margin: 20px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+.existing-contract {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+h1 {
+  margin: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+h5 {
+  text-align: center;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  color: #aaa;
+  margin: 20px;
+}
+a{
+  margin-left: 4px;
+}
+input[type="text"] {
+  padding: 6px;
+  font-size: 18px;
+}
+
+.button {
+  background-color: #2798f5;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 20px;
+  padding: 9px 25px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.approved-button {
+  background-color: #2af527;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 20px;
+  padding: 9px 25px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.button:hover{
+  opacity: 0.9;
+}
+
+.existing-contract ul {
+  padding: 10px;
+  margin: 20px;
+  background-color: #eee;
+}
+
+.fields > li {
+  list-style: none;
+  display: flex;
+  margin: 10px;
+}
+
+.existing-contract ul > li > div {
+  margin: 0 5px;
+}
+
+.existing-contract ul > li > :first-child {
+  font-weight: bold;
+}
+
+.fields > li div {
+  font-weight: 600;
+  margin-right: 5px;
+  width: 150px;
+}
+.fields > li p {
+  margin: 0; 
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+}
+.existing-contract .complete {
+  color: #5aa75a;
+  text-align: center;
+}
+
+.transaction{
+  margin-left: auto;
+  display: flex;  
+}
+
+.escrow{
+  background-color: white;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+
